@@ -1,1 +1,23 @@
-
+body {
+  background-image: url("../img/bg-body.jpg");
+}
+#profile {
+  background: #cf455c;
+  background-image: url("../img/header-shadow.png");
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  overflow: hidden;
+}
+.about {
+  float: left;
+  margin-top: 30px;
+  width: 490px;
+  margin-left: 20px;
+}
+.about .photo-inner {
+  float: left;
+  background: url("../img/photo-inner.png") no-repeat;
+  width: 214px;
+  height: 214px;
+  padding: 12px 0 0 19px;
+}
