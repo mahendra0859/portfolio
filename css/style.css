@@ -21,10 +21,12 @@ body {
   height: 214px;
   padding: 12px 0 0 19px;
 }
+.about .photo-inner img {
+  width: 180px;
+}
 
 .about h1 {
   font-weight: 900;
-  font-size: 40px;
   color: white;
   line-height: 34px;
   margin-top: 8px;
