@@ -1,9 +1,9 @@
 body {
   background-image: url("../img/bg-body.jpg");
-  min-height: 100vh;
-  display: flex;
+  /* min-height: 100vh; */
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 #container {
@@ -143,6 +143,8 @@ ul.socialicons {
   position: relative;
   padding-left: 130px;
   padding-right: 130px;
+  display: flex;
+  justify-content: center;
 }
 
 .tabs {
@@ -150,6 +152,8 @@ ul.socialicons {
   position: absolute;
   margin-top: -14px;
   z-index: 100;
+  display: flex;
+  justify-content: center;
 }
 
 .tabs li > a {

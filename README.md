@@ -9,6 +9,9 @@
 * Bootrsap CDN link : https://www.bootstrapcdn.com/
 * JQuery CDN link : https://code.jquery.com/
 * Meyer Reset CDN link : https://cdnjs.com/libraries/meyer-reset
+* Easy Tabs CDN link : https://cdnjs.com/libraries/jquery.easytabs
+* Jquery Isotope CDN link : https://cdnjs.com/libraries/jquery.isotope/1.5.25
+* Jquery Caroufredsel CDN link : https://cdnjs.com/libraries/jquery.caroufredsel
 
 - Note: tutorial branch has the full fledged code base
 
