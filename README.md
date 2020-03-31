@@ -16,3 +16,5 @@
 - Note: tutorial branch has the full fledged code base
 
 - Note : last seen link 1 : https://youtu.be/TASnnayYPL8?t=3106
+
+* Online Resume : https://zety.com/mycv/mahendra_ar
