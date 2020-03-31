@@ -211,6 +211,7 @@ header {
 }
 
 .socialicons li {
+  float: left;
   display: inline;
   margin: 0;
   padding: 0;
