@@ -223,6 +223,49 @@ span.word-wrap a {
   -moz-border-radius: 0px 4px 4px 0px;
   border-radius: 0px 4px 4px 0px;
 }
+/* Social Links */
+.social-link {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin: 20px;
+  background: rgb(214, 214, 214);
+  border-radius: 50%;
+  box-shadow: -7px -6px 20px 0 rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.2s;
+  cursor: pointer;
+}
+.social-link:hover {
+  transform: scale(1.1);
+}
+.social-link:before {
+  content: "";
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  background: rgb(214, 214, 214);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.social-link:hover:before {
+  box-shadow: inset -7px -6px 20px 0 rgba(255, 255, 255, 0.9),
+    inset 7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.social-link i {
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s;
+}
+
+.social-link:hover i {
+  font-size: 15px;
+}
 
 #resume .button:hover {
   background-color: #cf455c;
