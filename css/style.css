@@ -264,7 +264,28 @@ span.word-wrap a {
 }
 
 .social-link:hover i {
-  font-size: 15px;
+  animation: fly 0.6s ease forwards;
+}
+@keyframes fly {
+  16.6% {
+    transform: translate(50px, -60px) rotate(-60deg);
+  }
+  33.33% {
+    transform: translate(50px, -100px) rotate(-120deg);
+  }
+  49.6% {
+    transform: translate(0px, -120px) rotate(-180deg);
+  }
+  66.4% {
+    transform: translate(-50px, -100px) rotate(-240deg);
+  }
+  83% {
+    transform: translate(-50px, -50px) rotate(-300deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg);
+    font-size: 15px;
+  }
 }
 
 #resume .button:hover {
