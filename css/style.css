@@ -1,3 +1,116 @@
+/* Loader Section */
+.loader-container {
+  position: absolute;
+  top: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: #000;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
+.loader {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  transition: all 1s linear;
+}
+.loader span {
+  position: absolute;
+  display: block;
+}
+.loader span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation-name: animate1;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.loader span:nth-child(3) {
+  bottom: 0;
+  left: -100%;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation-name: animate3;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+@keyframes animate3 {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+.loader span:nth-child(2) {
+  right: 0;
+  top: -100%;
+  width: 40px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation-name: animate2;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+}
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+.loader span:nth-child(4) {
+  left: 0;
+  top: 100%;
+  width: 40px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation-name: animate4;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+}
+@keyframes animate4 {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -100%;
+  }
+}
+.hide-loader {
+  opacity: 0;
+  transition: opacity 4s;
+}
+.display-none-loader {
+  display: none;
+}
+
 /* Profile Section */
 
 /*-------------------------------------------------------*/
@@ -19,7 +132,6 @@
 
 .about .photo-inner {
   float: left;
-  background: url(images/photo-inner.png) no-repeat;
   width: 214px;
   height: 212px;
   padding: 12px 0 0 19px;
@@ -63,7 +175,7 @@ h3.main-heading .now {
   width: 310px;
   min-height: 230px;
   margin-left: 10px;
-  background: url(images/personal-info-sep.png) no-repeat left top;
+  /* background: url(images/personal-info-sep.png) no-repeat left top; */
   padding: 20px 0 19px 20px;
 }
 span.word-wrap a {
