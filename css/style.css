@@ -114,12 +114,18 @@
 /* Profile Section */
 
 /*-------------------------------------------------------*/
+#particles-js {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 #profile {
   background: #cf455c;
   background-image: url(../images/header-shadow.png);
   background-position: center bottom;
   background-repeat: repeat-x;
   overflow: hidden;
+  position: relative;
 }
 
 /* About */
